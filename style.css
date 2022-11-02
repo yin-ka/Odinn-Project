@@ -1,23 +1,32 @@
 *{
 }
 body{
-    
+    position: absolute;
     display: flex;
     background-color: aqua;
     width: 100%;
     height: 100%;
     padding-top: 0px;
+    max-height: 650px;
     
 }
 
 #first-section{
+    position: relative;
     display: flex;
     background-color: black;
     width: 40%;
 }
 
 #second-section{
+    position:relative;
     display: flex;
     background-color: brown;
     width: 60%;
+}
+
+img{
+    max-width: 600px;
+    max-height: 850px;
+    
 }
